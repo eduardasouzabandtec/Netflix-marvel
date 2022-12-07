@@ -1,0 +1,33 @@
+header {
+    background-color: var(--Black);
+    color: var(--SmokeWhite);
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .categorias {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+
+        ul {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            font-weight: 500;
+            
+            li:hover {
+                color: var(--Red);
+            }
+        }
+    }
+
+    .home {
+        img {
+            width: 32px;
+        }
+    }
+}
